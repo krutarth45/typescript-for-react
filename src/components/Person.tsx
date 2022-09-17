@@ -7,9 +7,9 @@ type PersonProps = {
 
 const Person = (props: PersonProps) => {
   return (
-    <div>
+    <h2>
       {props.name.first} {props.name.last}
-    </div>
+    </h2>
   );
 };
 
