@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import Container from "./components/Container";
 import Greet from "./components/Greet";
 import Heading from "./components/Heading";
 import Input from "./components/Input";
@@ -11,7 +12,7 @@ import Status from "./components/Status";
 function App() {
   const personName = {
     first: "Ali",
-    last: "zafar",
+    last: "Zafar",
   };
   const nameList = [
     { first: "Bruce", last: "Wayne" },
@@ -35,6 +36,15 @@ function App() {
       <Button
         handleClick={(event, id) => {
           console.log("button clicked ", event, id);
+        }}
+      />
+      <Container
+        styles={{
+          border: "1px solid black",
+          padding: "0.5rem 3rem 0.5rem 1rem",
+          width: "50px",
+          margin: "20px auto",
+          whiteSpace: "nowrap",
         }}
       />
     </div>
