@@ -12,7 +12,7 @@ import Status from "./components/Status";
 function App() {
   const personName = {
     first: "Ali",
-    last: "zafar",
+    last: "Zafar",
   };
   const nameList = [
     { first: "Bruce", last: "Wayne" },
@@ -41,8 +41,10 @@ function App() {
       <Container
         styles={{
           border: "1px solid black",
-          padding: "1rem",
-          marginTop: "20px",
+          padding: "0.5rem 3rem 0.5rem 1rem",
+          width: "50px",
+          margin: "20px auto",
+          whiteSpace: "nowrap",
         }}
       />
     </div>
